@@ -6,7 +6,7 @@ from flask import jsonify
 with open('dv.bin','rb') as f_in_dv:
     dv = pickle.load(f_in_dv)
 
-with open('model1.bin','rb') as f_in_model1:
+with open('model2.bin','rb') as f_in_model1:
     model = pickle.load(f_in_model1)
 
 
